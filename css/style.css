@@ -5,10 +5,12 @@
 }
 
 :root {
-    --primary-color: #f6891b;
+    --primary-color: #ff7226;
     --secondary-color: #000;
     --background-color: #f7f7f7;
+    --arimo-font: arimo;
     --color: #fff;
+    --page-links-color: #8a8a8a;
     --uppercase: uppercase;
     --main-font: 'Montserrat', sans-serif;
 }
@@ -214,7 +216,7 @@ nav {
 }
 
 #nav-links {
-    & a {
+    &>li>a {
         color: var(--secondary-color);
         font-size: 14px;
         font-weight: 500;
@@ -917,6 +919,7 @@ section#special-product {
     }
 }
 
+/* product page css  */
 #pro-details {
     & span {
         font-size: 13px;
@@ -1065,6 +1068,95 @@ section#special-product {
     }
 }
 
+/* product page css ended  */
+/* product - gallery page css */
+#galler-heading {
+    margin-block: 10px;
+
+    & h1 {
+        font: 700 24px var(--arimo-font);
+    }
+
+    .page-links a {
+        color: var(--page-links-color);
+        font: 400 14px var(--arimo-font);
+    }
+}
+
+#page-filiter {
+    margin-block: 80px 30px;
+
+    & label {
+        font: 500 14px var(--arimo-font);
+        color: #666666;
+        margin-right: 10px;
+    }
+
+    & select:focus-visible {
+        outline: none;
+    }
+
+    & select option {
+        font: 400 10px var(--arimo-font);
+        color: var(--page-links-color);
+    }
+
+    & span {
+        font: 500 14px var(--arimo-font);
+        color: var(--secondary-color);
+    }
+
+    .fa-table-cells-large {
+        color: var(--primary-color);
+    }
+}
+
+#product-filter {
+    & a {
+        font: 400 14px var(--arimo-font);
+        color: #333333;
+        transition: all .2s;
+
+        & input[type=checkbox] {
+            color: var(--primary-color);
+        }
+
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
+
+    & input {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .filters {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+        .filter-heading {
+            font: 600 16px var(--arimo-font);
+            letter-spacing: 1px;
+            color: #3e3e3e;
+        }
+
+        .filter-desc {
+            font: 400 14px var(--arimo-font);
+        }
+        & input[type=number] {
+            width: 100px;
+            padding: 0;
+        }
+        .colors a{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+/* product - gallery page css ended*/
 /* X-Large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
     .container {
