@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopstic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- infobar end -->
+    <div id="infobar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 d-none d-lg-block">
+                    <ul class="d-flex gap-2">
+                        <li><a href=""><i class="fa-solid fa-location-dot"></i>Find Store</a></li>
+                        <li><a href=""><i class="fa-regular fa-envelope"></i>Support@demo.com</a></li>
+                        <li><a href="">Offers & Value</a></li>
+                        <li><a href="">Everyday Savers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mx-auto">
+                    <ul class="d-flex gap-2 justify-content-lg-end justify-content-center">
+                        <li><a href="">USD $<i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="">English</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- infobar end -->
+    <header class="position-sticky top-0 start-0 z-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-2">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="col-md-6 ms-auto d-flex align-items-center d-none d-lg-block">
+                    <div id="search-box" class="d-flex flex-lg-grow-1 mx-auto">
+                        <input type="search" placeholder="Search" class="w-100 w-lg-25">
+                        <input type="button" value="Search">
+                    </div>
+                </div>
+                <div class="col-md-2 d-flex align-items-center justify-content-end d-none d-lg-block">
+                    <ul class="d-flex gap-2 align-items-center">
+                        <li><a href="" id="log-in">Log in /</a></li>
+                        <li><a href="" id="sign-up">Register</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-1 d-flex align-items-center justify-content-end ms-auto">
+                    <ul id="product-cart-links" class="d-flex gap-sm-3">
+                        <li><a href="" class="fa-solid fa-magnifying-glass d-block d-lg-none mx-1"></a></li>
+                        <li><a href="" class="fa-regular fa-user d-block d-lg-none"></a></li>
+                        <li><a href="" class="fa-solid fa-layer-group d-none d-sm-block"><span class="cart-count">0</span></a></li>
+                        <li><a href="" class="fa-regular fa-heart d-none d-sm-block"><span class="cart-count">0</span></a></li>
+                        <li><a href="" class="fa-solid fa-cart-shopping"><span class="cart-count">0</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-11">
+                    <a href="" id="product-categories" class="h-100 d-flex align-items-center justify-content-center"><i class="fa-solid fa-bars"></i>Shop By Categorie<i
+                            class="fa-solid fa-angle-down"></i></a>
+                </div>
+                <div class="col-8 d-none d-lg-block">
+                    <ul id="nav-links" class="d-flex gap-4 flex-wrap align-items-center">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Shop<i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="">Collections</a></li>
+                        <li><a href="">Outerwear<i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="">Accessories</a></li>
+                        <li><a href="">Trousers</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-1 ms-auto d-block d-lg-none d-flex align-items-center">
+                    <a href="" class="fa-solid fa-bars text-black"></a>
+                </div>
+            </div>
+    </nav>
+    <!-- main banner -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 d-none d-xl-block">
+                    <ul id="product-categories-links">
+                        <li><a href="">Cabinet Table</a></li>
+                        <li><a href="">Electronic</a></li>
+                        <li><a href="">Fashion<i class="fa-solid fa-angle-right float-end"></i></a></li>
+                        <li><a href="">Furntiure</a></li>
+                        <li><a href="">Headphones</a></li>
+                        <li><a href="">Leather Watch</a></li>
+                        <li><a href="">Men's Clothes</a></li>
+                        <li><a href="">Sliver Earning</a></li>
+                        <li><a href="">Sneakers Shoes</a></li>
+                        <li><a href="">More Categories<i class="fa-solid fa-angle-right float-end"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-9 p-0">
+                    <div id="banner" class="d-flex align-items-center">
+                       <div class="d-flex h-100">
+                        <img src="images/main-banner-1.webp" alt="" class="img-fluid h-100">
+                        <img src="images/main-banner-2.webp" alt="" class="img-fluid sec-banner-img h-100">
+                       </div>
+                        <div class="banner-heading">
+                            <span class="tagline">Starting At Only $500</span>
+                            <h1>Women using VR Headset</h1>
+                            <a href="">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container">
+        <div id="servicebox-1" class="row">
+            <div class="col-lg-3 col-sm-6">
+                <a href="" class="services d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="service-icon d-flex gap-2">
+                        <i class="fa-solid fa-truck up"></i>
+                        <i class="fa-solid fa-truck i-color"></i>
+                    </div>
+                    <div class="services-title">
+                        <h3>Worldwide Shipping</h3>
+                        <span>Order Above $100</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <a href="" class="services d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="service-icon d-flex gap-2">
+                        <i class="fa-solid fa-dollar-sign up"></i>
+                        <i class="fa-solid fa-dollar-sign i-color"></i>
+                    </div>
+                    <div class="services-title">
+                        <h3>Money Back Guarantee</h3>
+                        <span>Guarante With In 30 Days</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <a href="" class="services d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="service-icon d-flex gap-2">
+                        <i class="fa-solid fa-gift up"></i>
+                        <i class="fa-solid fa-gift i-color"></i>
+                    </div>
+                    <div class="services-title">
+                        <h3>Offers And Discounts</h3>
+                        <span>Back Returns In 7 Days</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <a href="" class="services d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="service-icon d-flex gap-2">
+                        <i class="fa-solid fa-phone-volume up"></i>
+                        <i class="fa-solid fa-phone-volume i-color"></i>
+                    </div>
+                    <div class="services-title">
+                        <h3>24/7 Support Services</h3>
+                        <span>Any Time Support</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="container product-box">
+        <div class="row">
+            <div class="col sec-heading ">
+                <h2 class="m-0">Latest Products</h2>
+                <div class="slide-btn d-flex gap-2 float-end">
+                    <a href="" class="fa-solid fa-angle-left"></a>
+                    <a href="" class="fa-solid fa-chevron-right"></a>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-2 col-md-3 col-sm-4">
+                <div class="products position-relative">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                    <a href="puduct.html" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-14%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-11%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 d-none d-md-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-15%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$235.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row ">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="product-snippet overflow-hidden">
+                    <a href=""><img src="images/sub-banner-1.webp" class="img-fluid" alt=""></a>
+                    <div class="offer-head">
+                        <h3 class="mb-0">Buy Comortable</h3>
+                        <h4>Wooden Chair</h4>
+                        <span class="offer-price">$150.00</span>
+                        <a href="" class="shop-action">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="product-snippet overflow-hidden">
+                    <a href=""><img src="images/sub-banner-2.webp" class="img-fluid w-100 h-100" alt=""></a>
+                    <div class="offer-head">
+                        <h3 class="mb-0">Biggest Deals</h3>
+                        <h4>On Clothes</h4>
+                        <span class="offer-price">$170.00</span>
+                        <a href="" class="shop-action">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="product-snippet overflow-hidden">
+                    <a href=""><img src="images/sub-banner-3.webp" class="img-fluid" alt=""></a>
+                    <div class="offer-head">
+                        <h3 class="mb-0">Best Quality</h3>
+                        <h4>Controller</h4>
+                        <span class="offer-price">$180.00</span>
+                        <a href="" class="shop-action">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featured product -->
+    <section class="container product-box">
+        <div class="row">
+            <div class="col sec-heading ">
+                <h2 class="m-0">Featured Products</h2>
+                <div class="slide-btn d-flex gap-2 float-end">
+                    <a href="" class="fa-solid fa-angle-left"></a>
+                    <a href="" class="fa-solid fa-chevron-right"></a>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-2 col-md-3 col-sm-4">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-14%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-11%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 d-none d-md-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-15%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$235.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shop categories -->
+    <section class="product-box container">
+        <div class="row">
+            <div class="col sec-heading">
+                <h2 class="m-0">Shop By Categories</h2>
+                <div class="slide-btn d-flex gap-2 float-end">
+                    <a href="" class="fa-solid fa-angle-left"></a>
+                    <a href="" class="fa-solid fa-chevron-right"></a>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div id="shop-categories" class="d-flex flex-row gap-2">
+            <div class="categories position-relative col col-sm-0">
+                <div class="categories-img overflow-hidden">
+                    <img src="images/cat-1.avif" class="img-fluid" alt="">
+                </div>
+                <div class="categories-details text-center">
+                    <h3><a href="">Women's Clothes</a></h3>
+                    <a href="" class="stretched-link">(7 Items)</a>
+                </div>
+            </div>
+            <div class="categories position-relative col col-sm-0">
+                <div class="categories-img overflow-hidden">
+                    <img src="images/cat-2.avif" class="img-fluid" alt="">
+                </div>
+                <div class="categories-details text-center">
+                    <h3><a href="">Women's Clothes</a></h3>
+                    <a href="#" class="stretched-link">(7 Items)</a>
+                </div>
+            </div>
+            <div class="categories position-relative col d-none d-sm-block">
+                <div class="categories-img overflow-hidden">
+                    <img src="images/cat-3.avif" class="img-fluid" alt="">
+                </div>
+                <div class="categories-details text-center">
+                    <h3><a href="">Women's Clothes</a></h3>
+                    <a href="" class="stretched-link">(7 Items)</a>
+                </div>
+            </div>
+            <div class="categories position-relative col d-none d-sm-block">
+                <div class="categories-img overflow-hidden">
+                    <img src="images/cat-4.avif" class="img-fluid" alt="">
+                </div>
+                <div class="categories-details text-center">
+                    <h3><a href="">Women's Clothes</a></h3>
+                    <a href="" class="stretched-link">(7 Items)</a>
+                </div>
+            </div>
+            <div class="categories position-relative col d-none d-md-block">
+                <div class="categories-img overflow-hidden">
+                    <img src="images/cat-3.avif" class="img-fluid" alt="">
+                </div>
+                <div class="categories-details text-center">
+                    <h3><a href="">Women's Clothes</a></h3>
+                    <a href="" class="stretched-link">(7 Items)</a>
+                </div>
+            </div>
+            <div class="categories position-relative col d-none d-xl-block">
+                <div class="categories-img overflow-hidden">
+                    <img src="images/cat-2.avif" class="img-fluid" alt="">
+                </div>
+                <div class="categories-details text-center">
+                    <h3><a href="">Women's Clothes</a></h3>
+                    <a href="" class="stretched-link">(7 Items)</a>
+                </div>
+            </div>
+            <div class="categories position-relative col d-none d-xl-block">
+                <div class="categories-img overflow-hidden">
+                    <img src="images/cat-1.avif" class="img-fluid" alt="">
+                </div>
+                <div class="categories-details text-center">
+                    <h3><a href="">Women's Clothes</a></h3>
+                    <a href="" class="stretched-link">(7 Items)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sub banner -->
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="sub-banner position-relative overflow-hidden">
+                   <div> <img src="images/cms-banner-1_ebf2156a-6c7c-4e54-a4c8-b0a8ae4b7ff6.webp" alt="" class="img-fluid"></div>
+                    <div class="banner-heading sub-b-heading">
+                        <span class="text-black">Save Up To 25% Off</span>
+                        <h3 class="text-black">New Florance Wrap Dress</h3>
+                        <a href="">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="sub-banner position-relative overflow-hidden">
+                    <img src="images/cms-banner-2.webp" alt="" class="img-fluid">
+                    <div class="banner-heading sub-b-heading">
+                        <span class="">Save Up To 30% Off</span>
+                        <h3>Huawei Nova Y70 Mobile</h3>
+                        <a href="">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best deals products -->
+    <section class="container product-box">
+        <div class="row">
+            <div class="col sec-heading">
+                <h2 class="m-0">Deal of The day</h2>
+                <div class="slide-btn d-flex gap-2 float-end">
+                    <a href="" class="fa-solid fa-angle-left"></a>
+                    <a href="" class="fa-solid fa-chevron-right"></a>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-2 col-md-3 col-sm-4">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                        <ul class="sales-time d-flex gap-1 align-items-center justify-content-center">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><span>471 :</span></li>
+                            <li><span>04 :</span></li>
+                            <li><span>03 :</span></li>
+                            <li><span>31</span></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-14%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                        <ul class="sales-time d-flex gap-1 align-items-center justify-content-center">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><span>471 :</span></li>
+                            <li><span>04 :</span></li>
+                            <li><span>03 :</span></li>
+                            <li><span>31</span></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-11%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                        <ul class="sales-time d-flex gap-1 align-items-center justify-content-center">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><span>471 :</span></li>
+                            <li><span>04 :</span></li>
+                            <li><span>03 :</span></li>
+                            <li><span>31</span></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 d-none d-md-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                        <ul class="sales-time d-flex gap-1 align-items-center justify-content-center">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><span>471 :</span></li>
+                            <li><span>04 :</span></li>
+                            <li><span>03 :</span></li>
+                            <li><span>31</span></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-15%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                        <ul class="sales-time d-flex gap-1 align-items-center justify-content-center">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><span>471 :</span></li>
+                            <li><span>04 :</span></li>
+                            <li><span>03 :</span></li>
+                            <li><span>31</span></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                        <ul class="sales-time d-flex gap-1 align-items-center justify-content-center">
+                            <li><i class="fa-regular fa-clock"></i></li>
+                            <li><span>471 :</span></li>
+                            <li><span>04 :</span></li>
+                            <li><span>03 :</span></li>
+                            <li><span>31</span></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$235.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shipping -->
+    <div class="container">
+        <div id="shipping" class="row d-flex justify-content-between">
+            <div class="col-md-3 mb-1 mb-sm-0">
+                <ul class="d-flex align-items-center justify-content-center">
+                    <li><i class="fa-solid fa-truck-fast"></i></li>
+                    <li>
+                        <h3 class="m-0 ms-3">Free Shipping</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-1 vr d-none d-xl-block"></div>
+            <div class="col-md-4 mb-1 mb-sm-0 p-0 d-flex align-items-center justify-content-center">
+                <p class="m-0 text-center">Free delivery now on your first order and over $200</p>
+            </div>
+            <div class="col-md-1 vr d-none d-xl-block"></div>
+            <div class="col-md-3 mb-1 mb-sm-0 d-flex align-items-center justify-content-center">
+                <a href="">- Only $200*</a>
+            </div>
+        </div>
+    </div>
+    <!-- categories grid -->
+    <section id="categories-grid" class="container product-box">
+        <div class="row row-cols-md-3">
+            <div class="col">
+                <div class="sec-heading mb-5">
+                    <h2 class="m-0">Fashion</h2>
+                    <div class="slide-btn d-flex gap-2 float-end">
+                        <a href="" class="fa-solid fa-angle-left"></a>
+                        <a href="" class="fa-solid fa-chevron-right"></a>
+                    </div>
+                    <hr>
+                </div>
+                <ul class="categories-list mb-3 mb-sm-0">
+                    <li>
+                        <div class="products d-flex gap-4  mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <span class="discount text-light bg-danger">-14%</span>
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products d-flex gap-4  mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <span class="discount text-light bg-danger">-14%</span>
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products d-flex gap-4 mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <span class="discount text-light bg-danger">-14%</span>
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="sec-heading  mb-5">
+                    <h2 class="m-0">Furntiure</h2>
+                    <div class="slide-btn d-flex gap-2 float-end">
+                        <a href="" class="fa-solid fa-angle-left"></a>
+                        <a href="" class="fa-solid fa-chevron-right"></a>
+                    </div>
+                    <hr>
+                </div>
+                <ul class="categories-list mb-3 mb-md-0">
+                    <li>
+                        <div class="products d-flex gap-4  mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products d-flex gap-4  mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products d-flex gap-4 mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <span class="discount text-light bg-danger">-14%</span>
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="sec-heading  mb-5">
+                    <h2 class="m-0">Electronic</h2>
+                    <div class="slide-btn d-flex gap-2 float-end">
+                        <a href="" class="fa-solid fa-angle-left"></a>
+                        <a href="" class="fa-solid fa-chevron-right"></a>
+                    </div>
+                    <hr>
+                </div>
+                <ul class="categories-list mb-3 mb-md-0">
+                    <li>
+                        <div class="products d-flex gap-4  mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <span class="discount text-light bg-danger">-14%</span>
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products d-flex gap-4  mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="products d-flex gap-4 mb-2">
+                            <div class="product-img set-img">
+                                <img src="images/product.webp" class="img-fluid w-100" alt="">
+                                <ul class="product-attributes">
+                                    <li><a href="" class="fa-regular fa-heart"></a></li>
+                                    <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                                    <li><a href="" class="fa-solid fa-expand"></a></li>
+                                </ul>
+                            </div>
+                            <div class="product-details">
+                                <span class="brand-name mb-2">Allen Solly</span>
+                                <h3 class="mb-2">Pendant Light Lamps for Home Decor</h3>
+                                <ul class="rating mb-2 hstack gap-1">
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                    <li><a href="" class="fa-solid fa-star"></a></li>
+                                </ul>
+                                <del class="cutoff-price">$250.00</del>
+                                <span class="actual-price">$250.00</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- categories grid ended-->
+    <!-- special product -->
+    <section id="special-product" class="container d-flex align-items-center rounded-3">
+        <div class="row">
+            <div class="col d-flex align-items-center">
+                    <div class="banner-heading my-auto">
+                        <span>Save Up To 25% Off</span>
+                        <h3>Casaliving Minta 4 Seater Sofa Set</h3>
+                        <a href="">Shop Now</a>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- special product ended-->
+    <!-- best selling products -->
+    <section class="container product-box">
+        <div class="row">
+            <div class="col">
+                <div class="sec-heading mb-4">
+                    <h2 class="m-0">Best Selling Products</h2>
+                    <div class="slide-btn d-flex gap-2 float-end">
+                        <a href="" class="fa-solid fa-angle-left"></a>
+                        <a href="" class="fa-solid fa-chevron-right"></a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-2 col-md-3 col-sm-4">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-14%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-11%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 d-none d-md-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <span class="discount text-light bg-danger">-15%</span>
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <del class="cutoff-price">$250.00</del>
+                        <span class="actual-price">$250.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="products">
+                    <div class="product-img">
+                        <img src="images/product.webp" class="img-fluid show-img" alt="">
+                        <img src="images/product-img.webp" class="img-fluid hover-img" alt="">
+                        <ul class="product-attributes">
+                            <li><a href="" class="fa-regular fa-heart"></a></li>
+                            <li><a href="" class="fa-solid fa-layer-group"></a></li>
+                            <li><a href="" class="fa-solid fa-expand"></a></li>
+                        </ul>
+                        <ul class="variant-color d-flex gap-2">
+                            <li><a href="" class="bg-success"></a></li>
+                            <li><a href="" class="bg-danger"></a></li>
+                            <li><a href="" class="bg-dark-subtle"></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-details">
+                        <span class="brand-name">Allen Solly</span>
+                        <h3>Pendant Light Lamps for Home Decor</h3>
+                        <ul class="rating mb-1 hstack gap-1">
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                            <li><a href="" class="fa-solid fa-star"></a></li>
+                        </ul>
+                        <span class="actual-price">$235.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- best selling products ended -->
+    <!-- testimonial -->
+    <section id="testimonial" class="container">
+        <div class="row">
+            <div class="col">
+                <div class="sec-heading mb-4">
+                    <h2 class="m-0">What Our Clients Say</h2>
+                    <div class="slide-btn d-flex gap-2 float-end">
+                        <a href="" class="fa-solid fa-angle-left"></a>
+                        <a href="" class="fa-solid fa-chevron-right"></a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-sm-6">
+                <div class="testimonial">
+                    <div class="testi-details d-flex gap-3 align-items-center mb-3">
+                        <img src="images/user-3.jpg" alt="">
+                        <div class="d-flex flex-column">
+                            <h3 class="test-name mb-0">Augusta Wind</h3>
+                            <span class="test-desg">Web Designer</span>
+                        </div>
+                    </div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout it.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-sm-6 d-none d-sm-block">
+                <div class="testimonial">
+                    <div class="testi-details d-flex gap-3 align-items-center mb-3">
+                        <img src="images/user-3.jpg" alt="">
+                        <div class="d-flex flex-column">
+                            <h3 class="test-name mb-0">Augusta Wind</h3>
+                            <span class="test-desg">Web Designer</span>
+                        </div>
+                    </div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout it.</p>
+                </div>
+            </div>
+            <div class="col-xl-4 d-none d-xl-block">
+                <div class="testimonial">
+                    <div class="testi-details d-flex gap-3 align-items-center mb-3">
+                        <img src="images/user-3.jpg" alt="">
+                        <div class="d-flex flex-column">
+                            <h3 class="test-name mb-0">Augusta Wind</h3>
+                            <span class="test-desg">Web Designer</span>
+                        </div>
+                    </div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial ended-->
+    <!-- blog -->
+    <section id="blogs" class="container">
+        <div class="row">
+            <div class="col">
+                <div class="sec-heading mb-4">
+                    <h2 class="m-0">From The Blog</h2>
+                    <div class="slide-btn d-flex gap-2 float-end">
+                        <a href="" class="fa-solid fa-angle-left"></a>
+                        <a href="" class="fa-solid fa-chevron-right"></a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 ">
+            <div class="col-xl-3 col-md-4 col-sm-6">
+                <div class="post">
+                    <div class="post-img overflow-hidden rounded-2">
+                        <img src="images/blog-1.webp" class="img-fluid" alt="">
+                    </div>
+                    <span class="post-date d-flex gap-1 align-items-center my-2"><i class="fa-regular fa-clock"></i>May
+                        2, 2023</span>
+                    <h3>
+                        <a href="" class="post-heading">Fashion Shopify Design Development for All Brand</a>
+                    </h3>
+                    <p class="post-content">Welcome to the digital world, where technology is constantly evolving and
+                        shaping the way we live, work, and communicate.</p>
+                    <a href="" class="post-btn text-uppercase">Read More</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-sm-6 d-none d-sm-block">
+                <div class="post">
+                    <div class="post-img overflow-hidden rounded-2">
+                        <img src="images/blog-1.webp" class="img-fluid" alt="">
+                    </div>
+                    <span class="post-date d-flex gap-1 align-items-center my-2"><i class="fa-regular fa-clock"></i>May
+                        2, 2023</span>
+                    <h3>
+                        <a href="" class="post-heading">Fashion Shopify Design Development for All Brand</a>
+                    </h3>
+                    <p class="post-content">Welcome to the digital world, where technology is constantly evolving and
+                        shaping the way we live, work, and communicate.</p>
+                    <a href="" class="post-btn text-uppercase">Read More</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 d-none d-md-block">
+                <div class="post">
+                    <div class="post-img overflow-hidden rounded-2">
+                        <img src="images/blog-1.webp" class="img-fluid" alt="">
+                    </div>
+                    <span class="post-date d-flex gap-1 align-items-center my-2"><i class="fa-regular fa-clock"></i>May
+                        2, 2023</span>
+                    <h3>
+                        <a href="" class="post-heading">Fashion Shopify Design Development for All Brand</a>
+                    </h3>
+                    <p class="post-content">Welcome to the digital world, where technology is constantly evolving and
+                        shaping the way we live, work, and communicate.</p>
+                    <a href="" class="post-btn text-uppercase">Read More</a>
+                </div>
+            </div>
+            <div class="col-xl-3 d-none d-xl-block">
+                <div class="post">
+                    <div class="post-img overflow-hidden rounded-2">
+                        <img src="images/blog-1.webp" class="img-fluid" alt="">
+                    </div>
+                    <span class="post-date d-flex gap-1 align-items-center my-2"><i class="fa-regular fa-clock"></i>May
+                        2, 2023</span>
+                    <h3>
+                        <a href="" class="post-heading">Fashion Shopify Design Development for All Brand</a>
+                    </h3>
+                    <p class="post-content">Welcome to the digital world, where technology is constantly evolving and
+                        shaping the way we live, work, and communicate.</p>
+                    <a href="" class="post-btn text-uppercase">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog ended -->
+    <!-- partneers -->
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <div class="sec-heading mb-4">
+                    <h2 class="m-0">Shop By Brands</h2>
+                    <div class="slide-btn d-flex gap-2 float-end">
+                        <a href="" class="fa-solid fa-angle-left"></a>
+                        <a href="" class="fa-solid fa-chevron-right"></a>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div id="brands" class="row overflow-hidden">
+            <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+                <div class="partners">
+                    <img src="images/brand-2.avif" class="img-fluid object-fit-cover" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+                <div class="partners">
+                    <img src="images/brand-3.avif" class="img-fluid object-fit-cover" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-sm-4 d-none d-sm-block">
+                <div class="partners">
+                    <img src="images/brand-4.avif" class="img-fluid object-fit-cover" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 d-none d-md-block">
+                <div class="partners">
+                    <img src="images/brand-6.avif" class="img-fluid object-fit-cover" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="partners">
+                    <img src="images/brand-4.avif" class="img-fluid object-fit-cover" alt="">
+                </div>
+            </div>
+            <div class="col-xl-2 d-none d-xl-block">
+                <div class="partners">
+                    <img src="images/brand-3.avif" class="img-fluid object-fit-cover" alt="">
+                </div>
+            </div>
+    </section>
+    <!-- parthners end -->
+    <!-- newsletter -->
+    <section id="news-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="newsletter" class="mb-3 mb-lg-0">
+                        <h2>Get Our Latets Update !</h2>
+                        <p>Subscribe to latest newsletter to get news about special discounts.</p>
+                        <div class="form-floating d-flex gap-2">
+                            <input type="email" id="floatingInput" placeholder="Email" class="form-control">
+                            <label for="floatingInput" class="text-black">Email</label>
+                            <input type="button" value="Subscribe" class="rounded-1 text-uppercase">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div id="apps-section" class="d-flex flex-sm-row flex-column align-items-center justify-content-between rounded-2">
+                        <div>
+                            <h2 class="app-title text-center text-sm-start">
+                            Get Download Apps
+                          </h2>
+                          <p class="app-subtitle text-center text-sm-start mb-0">
+                            15% discount on your first purchase
+                          </p>
+                        </div>
+                          <div class="d-flex gap-2 flex-sm-row flex-column">
+                            <a href=""><img src="images/google-play_139x.webp" alt=""></a>
+                            <a href=""><img src="images/google-play_139x.webp" alt=""></a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer  class="container">
+        <div id="footer-sidebar" class="row">
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="widgets">
+                    <h5 class="widget-heading">Contact Us</h5>
+                    <address class="shop-address w-50">Shopstic Mega Store 507-Union Trade Ipsum Doler Centre France</address>
+                    <a href="" class="d-block">hello@blocks.com</a>
+                    <span class="d-block p-number">+81 520-150-001</span>
+                    <div class="d-flex gap-3">
+                        <i class="fa-regular fa-comments"></i>
+                        <h6 class="w-50">Online Chat Get Expert Help</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="widgets">
+                    <h5 class="widget-heading">Need Help?</h5>
+                    <ul>
+                        <li><a href="">Policy for Seller</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">Sitemap</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="widgets">
+                    <h5 class="widget-heading">Information</h5>
+                    <ul>
+                        <li><a href="">Size Chart</a></li>
+                        <li><a href="">Conatct</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Policy for Buyers</a></li>
+                        <li><a href="">Shipping & Refund</a></li>
+                        <li><a href="">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="widgets">
+                    <h5 class="widget-heading">About Us</h5>
+                    <ul>
+                        <li><a href="">Search</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Delivery Information</a></li>
+                        <li><a href="">Policy for Buyers</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <ul id="list-footer-menu" class="d-lg-none d-block">
+                    <li><a href="" class="d-block">Contact Us <i class="fa-solid fa-angle-down float-end"></i></a></li>
+                    <li><a href="" class="d-block">Need Help? <i class="fa-solid fa-angle-down float-end"></i></a></li>
+                    <li><a href="" class="d-block">Information <i class="fa-solid fa-angle-down float-end"></i></a></li>
+                    <li><a href="" class="d-block">About Us <i class="fa-solid fa-angle-down float-end"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <hr class="mb-0">
+    <div id="footer" class="container py-2">
+        <div class="row align-items-center">
+            <div class="col-xl-3 mb-2 mb-xl-0">
+                <ul id="footer-social-links" class="d-flex gap-1 justify-content-center justify-content-xl-start">
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-xl-6 d-flex justify-content-center mb-2 mb-xl-0">
+                <a href="" class="text-center">© 2024, Shopstic Store (Password: demo) Powered by Shopify</a>
+            </div>
+            <div class="col-xl-3 d-flex justify-content-center">
+                <ul id="payments" class="d-flex gap-2">
+                    <li><img src="images/visaa.png" alt="" class="img-fluid"></li>
+                    <li><img src="images/visaa.png" alt="" class="img-fluid"></li>
+                    <li><img src="images/visaa.png" alt="" class="img-fluid"></li>
+                    <li><img src="images/visaa.png" alt="" class="img-fluid"></li>
+                    <li><img src="images/visaa.png" alt="" class="img-fluid"></li>
+                    <li><img src="images/visaa.png" alt="" class="img-fluid"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
