@@ -1408,4 +1408,14 @@ section#special-product {
             background: none;
         }
     }
+    #pro-details {
+        margin-top: 20px;
+        .producut-cart,.action-btn{
+            width: 100%;
+            margin-top: 10px;
+        }
+        .action-btn {
+            padding-inline:110px;
+        }
+      }
 }
