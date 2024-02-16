@@ -10,6 +10,7 @@
     --background-color: #f7f7f7;
     --arimo-font: arimo;
     --color: #fff;
+    --nav-link-color: #333333;
     --page-links-color: #8a8a8a;
     --uppercase: uppercase;
     --main-font: 'Montserrat', sans-serif;
@@ -216,15 +217,51 @@ nav {
 }
 
 #nav-links {
-    &>li>a {
-        color: var(--secondary-color);
-        font-size: 14px;
-        font-weight: 500;
-        padding: 12px 10px;
-        transition: all .5s;
+    &>li {
+        position: relative;
 
-        &:hover {
-            color: var(--primary-color);
+        &>a {
+            color: var(--secondary-color);
+            font-size: 14px;
+            font-weight: 500;
+            padding: 12px 10px;
+            transition: all .5s;
+
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+
+        .dropdown-menu {
+            width: 600px;
+            position: absolute;
+            padding: 20px;
+            display: none !important;
+
+            .mega-menu {
+                & h2 {
+                    margin-bottom: 0;
+
+                    & a {
+                        font: 500 15px var(--arimo-font);
+                        color: #333333;
+                    }
+                }
+
+                &>li>a {
+                    font: 400 14px var(--arimo-font);
+                    color: var(--nav-link-color);
+                    margin-block: 5px;
+                    transition: all .2s;
+                    &:hover{
+                        color: var(--primary-color);
+                    }
+                }
+            }
+        }
+        &:hover .dropdown-menu{
+            display:flex !important;
+            justify-content: space-between;
         }
     }
 }
@@ -1145,18 +1182,22 @@ section#special-product {
         .filter-desc {
             font: 400 14px var(--arimo-font);
         }
+
         & input[type=number] {
             width: 120px;
             margin-bottom: 0;
-            &:focus-visible{
+
+            &:focus-visible {
                 outline: none;
             }
-            &:focus{
+
+            &:focus {
                 border-color: #656565;
                 box-shadow: none;
             }
         }
-        .colors a{
+
+        .colors a {
             width: 30px;
             height: 30px;
         }
