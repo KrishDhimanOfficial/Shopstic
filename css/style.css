@@ -1146,8 +1146,15 @@ section#special-product {
             font: 400 14px var(--arimo-font);
         }
         & input[type=number] {
-            width: 100px;
-            padding: 0;
+            width: 120px;
+            margin-bottom: 0;
+            &:focus-visible{
+                outline: none;
+            }
+            &:focus{
+                border-color: #656565;
+                box-shadow: none;
+            }
         }
         .colors a{
             width: 30px;
