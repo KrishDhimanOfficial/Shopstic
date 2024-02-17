@@ -253,14 +253,16 @@ nav {
                     color: var(--nav-link-color);
                     margin-block: 5px;
                     transition: all .2s;
-                    &:hover{
+
+                    &:hover {
                         color: var(--primary-color);
                     }
                 }
             }
         }
-        &:hover .dropdown-menu{
-            display:flex !important;
+
+        &:hover .dropdown-menu {
+            display: flex !important;
             justify-content: space-between;
         }
     }
@@ -1107,7 +1109,7 @@ section#special-product {
 
 /* product page css ended  */
 /* product - gallery page css */
-#galler-heading {
+#inner-page {
     margin-block: 10px;
 
     & h1 {
@@ -1117,6 +1119,58 @@ section#special-product {
     .page-links a {
         color: var(--page-links-color);
         font: 400 14px var(--arimo-font);
+    }
+
+    & form {
+        width: 40%;
+        margin-block: 60px;
+
+        .form-heading {
+            text-align: center;
+            font: 600 24px var(--arimo-font);
+            margin-bottom: 25px;
+        }
+
+        & a {
+            color: #666666;
+            font: 400 14px var(--arimo-font);
+        }
+
+        .underline {
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        & input {
+            margin-bottom: 20px;
+
+            &:focus-visible {
+                border-color: var(--nav-link-color);
+                outline: none;
+            }
+
+            &:focus {
+                box-shadow: none;
+            }
+
+            &[type=submit] {
+                border: 0;
+                background: var(--primary-color);
+                color: var(--color);
+                font: 500 14px var(--arimo-font);
+                letter-spacing: 1px;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-transform: uppercase;
+            }
+        }
+
+        & label {
+            font: 500 14px arial;
+        }
     }
 }
 
@@ -1220,6 +1274,10 @@ section#special-product {
                 margin-top: 5px;
             }
         }
+    }
+
+    #inner-page form {
+        width: 80%;
     }
 }
 
@@ -1408,14 +1466,18 @@ section#special-product {
             background: none;
         }
     }
+
     #pro-details {
         margin-top: 20px;
-        .producut-cart,.action-btn{
+
+        .producut-cart,
+        .action-btn {
             width: 100%;
             margin-top: 10px;
         }
+
         .action-btn {
-            padding-inline:110px;
+            padding-inline: 110px;
         }
-      }
+    }
 }
