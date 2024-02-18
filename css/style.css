@@ -1130,7 +1130,6 @@ section#special-product {
             font: 600 24px var(--arimo-font);
             margin-bottom: 25px;
         }
-
         & a {
             color: #666666;
             font: 400 14px var(--arimo-font);
@@ -1158,6 +1157,7 @@ section#special-product {
 
             &[type=submit] {
                 border: 0;
+                cursor: pointer;
                 background: var(--primary-color);
                 color: var(--color);
                 font: 500 14px var(--arimo-font);
