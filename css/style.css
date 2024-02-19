@@ -236,7 +236,7 @@ nav {
             width: 600px;
             position: absolute;
             padding: 20px;
-            display: none !important;
+            display: none;
 
             .mega-menu {
                 & h2 {
@@ -262,7 +262,7 @@ nav {
         }
 
         &:hover .dropdown-menu {
-            display: flex !important;
+            display: flex;
             justify-content: space-between;
         }
     }
@@ -1173,6 +1173,18 @@ section#special-product {
 
         & label {
             font: 500 14px arial;
+        }
+    }
+    .contact-info{
+        margin-bottom: 20px;
+        & h3{
+            font:500 13px var(--arimo-font);
+            margin-bottom: 7px;
+        }
+        & span,a{
+            font:400 13px var(--arimo-font);
+            line-height: 20px;
+            color:var(--nav-link-color);
         }
     }
 }
