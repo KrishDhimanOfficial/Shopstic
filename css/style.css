@@ -85,8 +85,38 @@ section {
     max-width: 1340px;
 }
 
+.hide {
+    display: none;
+
+}
+
 .gold-rating {
     color: #f2b702;
+}
+
+#ad {
+    width: 300px;
+    height: 150px;
+    border: 1px solid #000;
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    z-index: 999;
+    background: var(--color);
+
+    .ad-img {
+        border: 1px solid #000;
+        width: 120px;
+        height: 70px;
+        & img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .desc {
+        border: 1px solid #000;
+    }
 }
 
 .a-hover {
@@ -1124,7 +1154,8 @@ section#special-product {
     & form {
         width: 40%;
         margin-block: 60px;
-        & textarea{
+
+        & textarea {
             min-height: 100px;
         }
 
@@ -1133,6 +1164,7 @@ section#special-product {
             font: 600 24px var(--arimo-font);
             margin-bottom: 25px;
         }
+
         & a {
             color: #666666;
             font: 400 14px var(--arimo-font);
@@ -1146,7 +1178,8 @@ section#special-product {
             }
         }
 
-        & input,textarea {
+        & input,
+        textarea {
             margin-bottom: 20px;
 
             &:focus-visible {
@@ -1175,16 +1208,20 @@ section#special-product {
             font: 500 14px arial;
         }
     }
-    .contact-info{
+
+    .contact-info {
         margin-bottom: 20px;
-        & h3{
-            font:500 13px var(--arimo-font);
+
+        & h3 {
+            font: 500 13px var(--arimo-font);
             margin-bottom: 7px;
         }
-        & span,a{
-            font:400 13px var(--arimo-font);
+
+        & span,
+        a {
+            font: 400 13px var(--arimo-font);
             line-height: 20px;
-            color:var(--nav-link-color);
+            color: var(--nav-link-color);
         }
     }
 }
